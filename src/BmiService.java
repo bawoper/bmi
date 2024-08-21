@@ -1,12 +1,8 @@
 public class BmiService {
-    public int calculate ( double rost, double wes) {
-        double a = rost * 2;
-        double x = wes / a;
-
-        int bmi = (int) x;
-
+    public int calculate(double height, double weight) {
+        double amount = height * 2;
+        double index = weight / amount;
+        int bmi = (int) index;
         return bmi;
-
-
     }
 }
